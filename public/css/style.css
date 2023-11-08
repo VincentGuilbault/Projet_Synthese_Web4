@@ -1,0 +1,105 @@
+/* Conteneur principal */
+.main {
+    display: flex;
+}
+
+/* Styles de la colonne de navigation */
+.menu_nav {
+    width: 20%;
+    /* Ajustez la largeur selon vos besoins */
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.nav_titre {
+    margin-top: 0;
+}
+
+.nav_principale ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav_principale li {
+    margin-bottom: 10px;
+    display: flex;
+    align-content: center;
+}
+
+.nav_principale a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    width: 100%;
+}
+
+.nav_principale a:hover {
+    background-color: #555;
+    color: white;
+}
+
+/* Styles de la colonne de contenu */
+.contenu {
+    width: 80%;
+    /* Ajustez la largeur selon vos besoins */
+    padding: 20px;
+}
+
+.contenu h1,
+.contenu h2 {
+    margin-top: 0;
+}
+
+.contenu ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.contenu li {
+    margin: 10px;
+    display: flex;
+    align-content: center;
+    list-style: none;
+}
+
+.contenu a.boites {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contenu a.boites:hover {
+    background-color: #555;
+    color: white;
+}
+
+.contenu div.formualaire_boite {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.contenu a.formulaire {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contenu a.formulaire:hover {
+    background-color: #555;
+    color: white;
+}
+
+
